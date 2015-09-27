@@ -8,9 +8,8 @@ body {
 
 img {
     display: block;
-    margin: 0 auto;
+    margin: 0 auto 20px;
     width: 100%;
-    z-index: 2;
 }
 
 a {
@@ -44,4 +43,14 @@ p {
 .dark {
 	color: black;
 }
+
+.panel p {
+	color: black;
+}
+
+.progress {
+	margin-left: 70px;
+	margin-right: 70px;
+}
+
 	

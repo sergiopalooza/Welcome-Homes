@@ -1,8 +1,11 @@
 <html>
 <head>
 	<title>Welcome Homes</title>
-	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </head>
 <body>
 	<div class="container-fluid">
@@ -12,6 +15,32 @@
 			<li role="presentation"><a href="help.html">Help</a></li>
 		</div>		
 		<img class="img-responsive" src="/img/results.jpg" />
+		
+		<div class="panel-group" id="accordion">
+		    <div class="panel panel-default">
+		      <div class="panel-heading">
+		        <h4 class="panel-title">
+		          <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Shelter Name</a><span id="distance" class="pull-right">x.x miles</span>
+		        </h4>
+		      </div>
+		      <div id="collapse1" class="panel-collapse collapse in">
+		        <div class="panel-body">
+		        	<p id="adl1">Address Line #1</p>
+		        	<p id="adl2">Address Line #2</p>
+		        	<p id="distance">x.x miles</p>
+		        	<div class="progress">
+  						<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+    					60 Beds Free
+  						</div>
+  						<div class="progress-bar progress-bar-danger" style="width: 40%">
+    					40 Beds Taken
+  						</div>
+					</div>
+		        </div>
+		      </div>
+		    </div>
+	  	</div> 
+
 		<p>Search again?</p>	
 		<div class="input-group search">
 	      <input type="text" class="form-control" placeholder="Where do you want to go?">
