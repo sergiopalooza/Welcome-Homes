@@ -1,10 +1,4 @@
-
-
-body  {
-	background-color: #071c24;
-}
-
-.fullbg {
+body {
 	margin-right: -10px;
 	margin-left: -10px;
 	background-color: #071c24;
@@ -33,10 +27,12 @@ p {
 .page-header {
 	font-size: 4em;
 	font-family: 'Helvetica';
+	text-align: center;
+	margin-top: 150px;
 }
 
 .search {
-	margin-top: 10px;
+	margin-top: 50px;
 	margin-bottom: 10px;
 	margin-right: 75px;
 	margin-left: 75px;
