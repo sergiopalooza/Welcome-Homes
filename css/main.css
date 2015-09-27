@@ -6,13 +6,9 @@ body {
 	color: white;
 	background-image: url('/img/backgroundBlank.jpg');
 	background-size: cover;
+	font-size: 2em;
 }
 
-img {
-    display: block;
-    margin: 0 auto 20px;
-    width: 100%;
-}
 
 a {
 	color: white;
@@ -24,6 +20,12 @@ p {
 	color: white;
 }
 
+.filters {
+	margin-bottom: 75px;
+	margin-right: 75px;
+	margin-left: 75px;
+}
+
 .page-header {
 	font-size: 4em;
 	font-family: 'Helvetica';
@@ -32,7 +34,7 @@ p {
 }
 
 .search {
-	margin-top: 50px;
+	margin-top: 10px;
 	margin-bottom: 10px;
 	margin-right: 75px;
 	margin-left: 75px;
@@ -46,7 +48,6 @@ p {
 
 .nav-tabs {
 	border-style: none;
-	z-index: 1;
 }
 
 .dark {
