@@ -1,11 +1,16 @@
 
-body {
+
+body  {
+	background-color: #071c24;
+}
+
+.fullbg {
 	margin-right: -10px;
 	margin-left: -10px;
 	background-color: #071c24;
 	overflow-x:hidden;
 	color: white;
-	background-image: url('/img/backgroundTemplate.jpg');
+	background-image: url('/img/backgroundBlank.jpg');
 	background-size: cover;
 }
 
