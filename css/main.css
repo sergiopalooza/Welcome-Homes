@@ -28,6 +28,14 @@ p {
 	color: red;
 }
 
+.full {
+	color: red;
+}
+
+.not-full {
+	color: blue;
+}
+
 .glyphicon-ok {
 	color: green;
 }
@@ -57,6 +65,10 @@ p {
 	color: white;
 }
 
+input[type="text"]
+{
+    font-size:24px;
+}
 .nav-tabs {
 	border-style: none;
 }
