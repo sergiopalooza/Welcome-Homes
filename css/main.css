@@ -20,6 +20,17 @@ p {
 	color: white;
 }
 
+.glyphicon {
+	color: black;
+}
+
+.glyphicon-remove {
+	color: red;
+}
+
+.glyphicon-ok {
+	color: green;
+}
 .filters {
 	margin-bottom: 75px;
 	margin-right: 75px;
