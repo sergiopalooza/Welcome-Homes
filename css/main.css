@@ -1,9 +1,12 @@
+
 body {
 	margin-right: -10px;
 	margin-left: -10px;
 	background-color: #071c24;
 	overflow-x:hidden;
-
+	color: white;
+	background-image: url('/img/backgroundTemplate.jpg');
+	background-size: cover;
 }
 
 img {
@@ -20,6 +23,11 @@ p {
 	margin-right: 75px;
 	margin-left: 75px;
 	color: white;
+}
+
+.page-header {
+	font-size: 4em;
+	font-family: 'Helvetica';
 }
 
 .search {
@@ -44,8 +52,9 @@ p {
 	color: black;
 }
 
-.panel p {
-	color: black;
+.panel {
+	margin-left: 70px;
+	margin-right: 70px;
 }
 
 .progress {
@@ -53,4 +62,11 @@ p {
 	margin-right: 70px;
 }
 
+.panel a {
+	color: black;
+}
+
+.panel p {
+	color: black;
+}
 	
